@@ -9,8 +9,8 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
   host: localhost
-  username: postgres
-  password: 1234.com
+  username: <%= ENV["MOTORCYCLE_BOOKING_DATABASE_USERNAME"] %>
+  password: <%= ENV["MOTORCYCLE_BOOKING_DATABASE_PASSWORD"] %>
 
 development:
   <<: *default

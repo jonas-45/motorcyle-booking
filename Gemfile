@@ -9,6 +9,12 @@ gem 'rails', '~> 7.0.7'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
+# Load env variables
+gem 'dotenv-rails', groups: %i[development test]
+
+# Add devise for authentication
+gem 'devise'
+
 # Use postgres as the database for Active Record
 gem 'pg'
 
