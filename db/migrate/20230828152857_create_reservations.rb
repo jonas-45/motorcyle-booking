@@ -6,6 +6,7 @@ class CreateReservations < ActiveRecord::Migration[7.0]
       t.string :city
       t.references :motorcycle, null: false, foreign_key: true
       t.references :user, null: false, foreign_key: true
+      t.string :status
 
       t.timestamps
     end
