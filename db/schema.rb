@@ -19,6 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_28_152857) do
     t.string "image"
     t.text "description"
     t.float "price"
+    t.integer "duration"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -29,6 +30,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_28_152857) do
     t.string "city"
     t.bigint "motorcycle_id", null: false
     t.bigint "user_id", null: false
+    t.string "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["motorcycle_id"], name: "index_reservations_on_motorcycle_id"

@@ -5,6 +5,7 @@ class CreateMotorcycles < ActiveRecord::Migration[7.0]
       t.string :image
       t.text :description
       t.float :price
+      t.integer :duration
 
       t.timestamps
     end
