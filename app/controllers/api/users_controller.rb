@@ -1,12 +1,12 @@
 class Api::UsersController < ApplicationController
-  skip_before_action :verify_authenticity_token, only: [:register, :login]
+  skip_before_action :verify_authenticity_token, only: %i[register login]
 
   def register
     # user = User.find_or_initialize_by(username: params[:username])
     user = User.new(user_params)
 
     if user.save
-      render json: {message: 'User registered successfully'}, status: :created
+      render json: { message: 'User registered successfully' }, status: :created
     else
       render json: { errors: user.errors.full_messages.join(', ') }, status: :unprocessable_entity
     end
