@@ -11,10 +11,10 @@ class User < ApplicationRecord
   def self.find_first_by_auth_conditions(warden_conditions)
     conditions = warden_conditions.dup
     username = conditions.delete(:username)
-    where(conditions).where(["lower(username) = :value", { value: username.strip.downcase }]).first
+    where(conditions).where(['lower(username) = :value', { value: username.strip.downcase }]).first
   end
 
   def password_confirmation_match
-    errors.add(:password_confirmation, "must match password") if password != password_confirmation
+    errors.add(:password_confirmation, 'must match password') if password != password_confirmation
   end
 end
