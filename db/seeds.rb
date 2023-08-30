@@ -10,3 +10,6 @@ Motorcycle.create(name: "Honda", image: "https://drive.google.com/file/d/1QAoQao
 Motorcycle.create(name: "Yamaha", image: "https://drive.google.com/file/d/1ldg-nHBMZEn34B6RNEzWJUEB8tp2SBIi/view?usp=sharing", description: "Blue Color.", price: 400)
 Motorcycle.create(name: "Shahab", image: "https://drive.google.com/file/d/1loPiow_igdgwKLvWOYt8f7UJXX86QUBA/view?usp=sharing", description: "Orange Color.", price: 200)
 Motorcycle.create(name: "Alburz", image: "https://drive.google.com/file/d/1jRuQsj66LT2x6YeLZjF-hiGJplm2QCin/view?usp=sharing", description: "Black and Green Color.", price: 600)
+
+Reservation.create(reservation_time: '14:30', reservation_date: '2023-09-10', city: "Cape Town", status: 'unprocessable_entity')
+Motorcycle.create(name: "Alburz", image: "https://drive.google.com/file/d/1jRuQsj66LT2x6YeLZjF-hiGJplm2QCin/view?usp=sharing", description: "Black and Green Color.", price: 600, duration: 'two days')
