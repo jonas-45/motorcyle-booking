@@ -1,6 +1,6 @@
 class Api::ReservationsController < ApplicationController
   def index
-    @reservations = Reservation.includes(:motorcycle).order(id: :desc)
+    @reservations = Reservation.includes(:motorcycle).where(user_id: params[:id]).order(id: :desc)
     response_data = @reservations.map do |reservation|
       {
         id: reservation.id,
