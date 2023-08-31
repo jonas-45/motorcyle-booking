@@ -10,7 +10,7 @@ default: &default
   timeout: 5000
   host: localhost
   username: postgres
-  password: Thyshaln08
+  password: 1234.com
 
 development:
   <<: *default
