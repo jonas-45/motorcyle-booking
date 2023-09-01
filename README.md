@@ -136,6 +136,12 @@ To run the project, execute the following command:
 - Twitter: [Twitter](https://twitter.com/Nazari_Jawad58)
 - LinkedIn: [Linkedin](https://www.linkedin.com/in/jawad-nazari/)
 
+🕵🏽‍♀️ **Jonas Nuta**
+
+- GitHub: [Github](https://github.com/jonas-45)
+- Twitter: [Twitter](https://twitter.com/jonaswullah)
+- LinkedIn: [Linkedin](https://linkedin.com/in/jonas-wullah)
+
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ## 🔭 Future Features <a name="future-features"></a>
