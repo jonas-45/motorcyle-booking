@@ -1,0 +1,76 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/api/motorcycles":
+    get:
+      summary: list motorcycles
+      responses:
+        '200':
+          description: successful
+    post:
+      summary: create motorcycle
+      responses:
+        '200':
+          description: successful
+  "/api/motorcycles/{id}":
+    parameters:
+    - name: id
+      in: path
+      description: id
+      required: true
+      schema:
+        type: string
+    get:
+      summary: show motorcycle
+      responses:
+        '200':
+          description: successful
+    delete:
+      summary: delete motorcycle
+      responses:
+        '200':
+          description: successful
+  "/api/reservations":
+    get:
+      summary: list reservations
+      responses:
+        '200':
+          description: successful
+    post:
+      summary: create reservation
+      responses:
+        '200':
+          description: successful
+  "/api/reservations/{id}":
+    parameters:
+    - name: id
+      in: path
+      description: id
+      required: true
+      schema:
+        type: string
+    delete:
+      summary: delete reservation
+      responses:
+        '200':
+          description: successful
+  "/api/users/register":
+    post:
+      summary: register user
+      responses:
+        '200':
+          description: successful
+  "/api/users/login":
+    get:
+      summary: login user
+      responses:
+        '200':
+          description: successful
+servers:
+- url: https://{defaultHost}
+  variables:
+    defaultHost:
+      default: www.example.com
