@@ -130,6 +130,12 @@ To run the project, execute the following command:
 - Twitter: [Twitter](https://twitter.com/MukulyengeP)
 - Linkedin: [LinkedIn](https://www.linkedin.com/in/Patrick-Mukula/)
 
+🕵🏽‍♀️ **Jawad Nazari**
+
+- GitHub: [GitHub](https://github.com/Jawad-Nazari)
+- Twitter: [Twitter](https://twitter.com/Nazari_Jawad58)
+- LinkedIn: [Linkedin](https://www.linkedin.com/in/jawad-nazari/)
+
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ## 🔭 Future Features <a name="future-features"></a>
