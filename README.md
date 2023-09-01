@@ -124,6 +124,12 @@ To run the project, execute the following command:
 - Twitter: [Twitter](https://twitter.com/ehmaddd_pk)
 - Linkedin: [LinkedIn](https://www.linkedin.com/in/ehmaddd/)
 
+🕵🏽‍♀️ **Patrick Mukula**
+
+- Github: [GitHub](https://github.com/Patfarmurs/)
+- Twitter: [Twitter](https://twitter.com/MukulyengeP)
+- Linkedin: [LinkedIn](https://www.linkedin.com/in/Patrick-Mukula/)
+
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ## 🔭 Future Features <a name="future-features"></a>
