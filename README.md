@@ -182,6 +182,6 @@ We would like to thank Microverse community for helping us to improve our skills
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/jonas-45/motorcyle-booking/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/jonas-45/motorcyle-booking/blob/readme/LICENSE) licensed.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
