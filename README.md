@@ -68,7 +68,7 @@ The Motorcycle Booking App has the following features :
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ## React Project Link <a name="react-link"></a>
-https://github.com/jonas-45/motorcyle-booking
+https://github.com/jonas-45/motorcycle-booking-react
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
