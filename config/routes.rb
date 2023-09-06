@@ -7,7 +7,7 @@ Rails.application.routes.draw do
       collection do
         post 'register', to: 'users#register'
         get 'login', to: 'users#login'
-        get 'current_user_id', to: 'users#get_id'
+        get 'current_user_id', to: 'users#current_user_id'
       end
     end
     resources :reservations, only: [:index, :create, :destroy]
