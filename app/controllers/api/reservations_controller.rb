@@ -3,14 +3,15 @@ class Api::ReservationsController < ApplicationController
   # before_action :set_user, only: %i[index create]
 
   def index
-    @reservations = Reservation.includes(:motorcycle).where(user_id: params[:id]).order(id: :desc)
+    user = User.find_by(username: params[:username])
+    @reservations = Reservation.includes(:motorcycle).where(user_id: user.id).order(id: :desc)
     response_data = @reservations.map do |reservation|
       {
         id: reservation.id,
-        reserve_date: reservation.reservation_date,
-        reserve_time: reservation.reservation_time,
+        reserveDate: reservation.reservation_date,
+        reserveTime: reservation.reservation_time,
         city: reservation.city,
-        motor_name: reservation.motorcycle.name
+        motorName: reservation.motorcycle.name
       }
     end
 
@@ -19,7 +20,7 @@ class Api::ReservationsController < ApplicationController
 
   def create
     existing_reservation = Reservation.find_by(motorcycle_id: reservation_params[:motorcycle_id],
-                                               date: reservation_params[:date])
+                                               date: reservation_params[:reservation_date])
 
     if existing_reservation
       render json: { error: 'Reservation for this motorcycle and date already exists' }, status: :unprocessable_entity
@@ -57,6 +58,6 @@ class Api::ReservationsController < ApplicationController
   end
 
   def reservation_params
-    params.require(:reservation).permit(:user_id, :motorcycle_id, :reservation_date, :reservation_time, :city, :status)
+    params.require(:reservation).permit(:user_id, :motorcycle_id, :reservation_date, :city)
   end
 end

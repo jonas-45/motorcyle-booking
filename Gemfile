@@ -71,5 +71,5 @@ group :test do
   gem 'webdrivers'
 end
 
-gem 'rswag'
 gem 'rack-cors'
+gem 'rswag'
