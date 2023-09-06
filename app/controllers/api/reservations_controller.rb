@@ -3,7 +3,7 @@ class Api::ReservationsController < ApplicationController
   # before_action :set_user, only: %i[index create]
 
   def index
-    user = User.find_by(username: params[:username]);
+    user = User.find_by(username: params[:username])
     @reservations = Reservation.includes(:motorcycle).where(user_id: user.id).order(id: :desc)
     response_data = @reservations.map do |reservation|
       {
