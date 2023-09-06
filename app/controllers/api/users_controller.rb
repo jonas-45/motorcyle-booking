@@ -21,9 +21,8 @@ class Api::UsersController < ApplicationController
     end
   end
 
-  def get_id
+  def current_user_id
     user = User.find_by(username: params[:username])
-  
     if user
       render json: { id: user.id }
     else
