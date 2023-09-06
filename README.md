@@ -19,6 +19,7 @@
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
   - [Usage](#usage)
+   - [Test](#test)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -115,6 +116,17 @@ To run the project, execute the following command:
 ```sh
   rails server
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Tests
+
+To run the tests, the following command should be executed:
+
+```
+  rake rswag:
+```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
