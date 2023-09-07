@@ -5,16 +5,23 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-Motorcycle.create(name: "Suzuki", image: "https://drive.google.com/file/d/1IFDAhKBwmsjirSRkJQrgfsb5wDKU3qnq/view?usp=sharing", description: "Green Color", price: 700)
-Motorcycle.create(name: "Honda", image: "https://drive.google.com/file/d/1QAoQaoBm5BX78DDjLRe5tSa62aK41fYr/view?usp=sharing", description: "Black and White Color", price: 800)
-Motorcycle.create(name: "Yamaha", image: "https://drive.google.com/file/d/1ldg-nHBMZEn34B6RNEzWJUEB8tp2SBIi/view?usp=sharing", description: "Blue Color.", price: 400)
-Motorcycle.create(name: "Shahab", image: "https://drive.google.com/file/d/1loPiow_igdgwKLvWOYt8f7UJXX86QUBA/view?usp=sharing", description: "Orange Color.", price: 900)
-Motorcycle.create(name: "Alburz", image: "https://drive.google.com/file/d/1jRuQsj66LT2x6YeLZjF-hiGJplm2QCin/view?usp=sharing", description: "Black and Green Color.", price: 300)
-Motorcycle.create(name: "Alburz", image: "https://drive.google.com/file/d/1jRuQsj66LT2x6YeLZjF-hiGJplm2QCin/view?usp=sharing", description: "Black and Green Color.", price: 200)
+Motorcycle.create(name: "Agusta_Brutale_19", image: "http://motorshop63.persiangig.com/image/Agusta_Brutale/Agusta_Brutale_19.jpg", description: "Agusta's Brutale is probably the most acclaimed modern-age naked sports bike. ", price: 900)
+Motorcycle.create(name: "SUZUKI-GSX1300-69", image: "http://motorshop63.persiangig.com/image/SUZUKI-GSX1300/SUZUKI-GSX1300-69.jpg", description: "The Suzuki GSX1300 R Hayabusa is powered by a 1,340cc, liquid-cooled", price: 700)
+Motorcycle.create(name: "Agusta_Brutale_17.jpg", image: "http://motorshop63.persiangig.com/image/Agusta_Brutale/Agusta_Brutale_17.jpg", description: "Agusta's Brutale is probably the most acclaimed modern-age naked sports bike. ", price: 800)
+Motorcycle.create(name: "SUZUKI-GSX1300-53", image: "http://motorshop63.persiangig.com/image/SUZUKI-GSX1300/SUZUKI-GSX1300-53.jpg", description: "The Suzuki GSX1300 R Hayabusa is powered by a 1,340cc, liquid-cooled", price: 600)
+Motorcycle.create(name: "Agusta_Brutale_18", image: "http://motorshop63.persiangig.com/image/Agusta_Brutale/Agusta_Brutale_18.jpg", description: "Agusta's Brutale is probably the most acclaimed modern-age naked sports bike. ", price: 400)
+Motorcycle.create(name: "SUZUKI-GSX1300-1", image: "http://motorshop63.persiangig.com/image/SUZUKI-GSX1300/SUZUKI-GSX1300-1.jpg", description: "The Suzuki GSX1300 R Hayabusa is powered by a 1,340cc, liquid-cooled", price: 300)
+Motorcycle.create(name: "Agusta_Brutale_4", image: "http://motorshop63.persiangig.com/image/Agusta_Brutale/Agusta_Brutale_4.jpg", description: "Agusta's Brutale is probably the most acclaimed modern-age naked sports bike. ", price: 300)
+Motorcycle.create(name: "moto_morini_26", image: "http://motorshop63.persiangig.com/image/moto-morini/moto_morini_26.jpg", description: "Moto Morini is an Italian motorcycle manufacturer founded by Alfonso Morini in Bologna ", price: 300)
+Motorcycle.create(name: "SUZUKI-GSX1300-68", image: "http://motorshop63.persiangig.com/image/SUZUKI-GSX1300/SUZUKI-GSX1300-68.jpg", description: "The Suzuki GSX1300 R Hayabusa is powered by a 1,340cc, liquid-cooled", price: 300)
+Motorcycle.create(name: "Agusta_Brutale_18", image: "http://motorshop63.persiangig.com/image/Agusta_Brutale/Agusta_Brutale_18.jpg", description: "Agusta's Brutale is probably the most acclaimed modern-age naked sports bike. ", price: 400)
+Motorcycle.create(name: "moto_morini_28", image: "http://motorshop63.persiangig.com/image/moto-morini/moto_morini_28.jpg", description: "Moto Morini is an Italian motorcycle manufacturer founded by Alfonso Morini in Bologna", price: 300)
 
-User.create(username: 'user1')
-User.create(username: 'user2')
-User.create(username: 'user3')
+User.create(username: 'Jawad')
+User.create(username: 'Ahmad')
+User.create(username: 'Jonas')
+User.create(username: 'Patrick')
+User.create(username: 'User')
 
 puts "Sample users created successfully!"
 
